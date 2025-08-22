@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Strategy Dashboard for Arazzo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-logo">
+                    <img src="https://static.wixstatic.com/media/481a8e_35300858fcff4e04ace05b8e87c89d09~mv2.png/v1/fill/w_186,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/481a8e_35300858fcff4e04ace05b8e87c89d09~mv2.png" alt="Arazzo Logo" class="logo-image">
+                </div>
+                <div class="header-center">
+                    <h1 class="brand-title">Instagram Strategy Dashboard for Arazzo</h1>
+                    <p class="brand-subtitle">Luxury Sustainable Embroidery Strategy</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-tabs">
+        <div class="container">
+            <div class="tab-list">
+                <button class="tab-btn active" data-tab="executive">Executive Summary</button>
+                <button class="tab-btn" data-tab="competitors">Competitor Analysis</button>
+                <button class="tab-btn" data-tab="inspiration">Inspiration Brands</button>
+                <button class="tab-btn" data-tab="formats">Format Performance</button>
+                <button class="tab-btn" data-tab="grid">3×3 Grid Strategy</button>
+                <button class="tab-btn" data-tab="schedule">Posting Schedule</button>
+                <button class="tab-btn" data-tab="content">Content System</button>
+                <button class="tab-btn" data-tab="measurement">Measurement</button>
+                <button class="tab-btn" data-tab="pricing">Pricing</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Executive Summary Section -->
+            <section class="tab-content active" id="executive">
+                <div class="section-header">
+                    <h2>Executive Summary</h2>
+                    <p>Key insights and strategic recommendations for Arazzo's luxury sustainable embroidery brand</p>
+                </div>
+                
+                <div class="executive-grid">
+                    <div class="insight-card">
+                        <div class="insight-icon">📈</div>
+                        <h3>Market Opportunity</h3>
+                        <p>Sustainable luxury embroidery brands show 40% higher engagement rates compared to traditional competitors</p>
+                        <div class="metric">+40% Engagement</div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-icon">🎯</div>
+                        <h3>Content Sweet Spot</h3>
+                        <p>Process videos (Reels) and artisan stories (Carousels) drive the highest engagement and brand trust</p>
+                        <div class="metric">1.66% Avg ER</div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-icon">⚡</div>
+                        <h3>Optimized Frequency</h3>
+                        <p>3 posts per week, 10 stories weekly, and 2 reels per week for optimal engagement and sustainability storytelling</p>
+                        <div class="metric">+300% Growth</div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-icon">🎨</div>
+                        <h3>Differentiation</h3>
+                        <p>Transparency in artisan welfare and circular economy practices creates strong brand positioning for Arazzo</p>
+                        <div class="metric">25% Save Rate</div>
+                    </div>
+                </div>
+
+                <div class="benchmark-comparison">
+                    <h3>Performance Benchmarks</h3>
+                    <div class="benchmark-chart-container" style="position: relative; height: 400px;">
+                        <canvas id="benchmarkChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Competitor Analysis Section -->
+            <section class="tab-content" id="competitors">
+                <div class="section-header">
+                    <h2>Competitor Analysis</h2>
+                    <p>Deep dive into competitor performance and strategies</p>
+                </div>
+
+                <div class="competitor-filters">
+                    <button class="filter-btn active" data-filter="all">All Competitors</button>
+                    <button class="filter-btn" data-filter="high-engagement">High Engagement</button>
+                    <button class="filter-btn" data-filter="sustainable">Sustainability Focus</button>
+                </div>
+
+                <div class="competitor-grid" id="competitorGrid">
+                    <!-- Competitor cards will be populated by JavaScript -->
+                </div>
+
+                <div class="competitive-insights">
+                    <h3>Competitive Landscape Insights</h3>
+                    <div class="insights-grid">
+                        <div class="insight-panel">
+                            <h4>Content Volume Leaders</h4>
+                            <p>Milaaya Embroideries leads with 6 posts/week, focusing on global collaborations and sustainability</p>
+                        </div>
+                        <div class="insight-panel">
+                            <h4>Engagement Champions</h4>
+                            <p>Barira Fashion achieves highest engagement (2.3%) through authentic artisan stories despite smaller following</p>
+                        </div>
+                        <div class="insight-panel">
+                            <h4>Sustainability Gap</h4>
+                            <p>Only 40% of competitors actively promote sustainability - major differentiation opportunity for Arazzo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inspiration Brands Section -->
+            <section class="tab-content" id="inspiration">
+                <div class="section-header">
+                    <h2>Inspiration Brand Teardowns</h2>
+                    <p>Visual language and storytelling insights from premium fashion brands</p>
+                </div>
+
+                <div class="inspiration-brands">
+                    <div class="brand-teardown">
+                        <div class="brand-header">
+                            <h3>Ananya Goenka Bagaria</h3>
+                            <span class="brand-tag">Minimalist Luxury</span>
+                        </div>
+                        <div class="teardown-content">
+                            <div class="visual-language">
+                                <h4>Visual Language</h4>
+                                <div class="language-tags">
+                                    <span class="tag">Structured Silhouettes</span>
+                                    <span class="tag">Quiet Confidence</span>
+                                    <span class="tag">Editorial Photography</span>
+                                    <span class="tag">Neutral Palettes</span>
+                                </div>
+                            </div>
+                            <div class="storytelling-approach">
+                                <h4>Storytelling Approach</h4>
+                                <p>Understated sophistication with architectural approach to fashion. Focus on design philosophy and craftsmanship details.</p>
+                            </div>
+                            <div class="transferable-elements">
+                                <h4>Transferable to Arazzo</h4>
+                                <ul>
+                                    <li>Clean, editorial photography style</li>
+                                    <li>Focus on structural details and precision</li>
+                                    <li>Neutral color palettes highlighting craftsmanship</li>
+                                    <li>Emphasis on design philosophy over product features</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="brand-teardown">
+                        <div class="brand-header">
+                            <h3>PIPATCHARA</h3>
+                            <span class="brand-tag">Sustainable Luxury</span>
+                        </div>
+                        <div class="teardown-content">
+                            <div class="visual-language">
+                                <h4>Visual Language</h4>
+                                <div class="language-tags">
+                                    <span class="tag">Organic Materials</span>
+                                    <span class="tag">Artisan Collaboration</span>
+                                    <span class="tag">Process Transparency</span>
+                                    <span class="tag">Cultural Heritage</span>
+                                </div>
+                            </div>
+                            <div class="storytelling-approach">
+                                <h4>Storytelling Approach</h4>
+                                <p>Purpose-driven luxury with circular economy fashion and social impact focus. Strong artisan storytelling.</p>
+                            </div>
+                            <div class="transferable-elements">
+                                <h4>Transferable to Arazzo</h4>
+                                <ul>
+                                    <li>Transparency in production processes</li>
+                                    <li>Artisan spotlight and welfare stories</li>
+                                    <li>Cultural heritage preservation narrative</li>
+                                    <li>Sustainability metrics and impact measurement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Format Performance Section -->
+            <section class="tab-content" id="formats">
+                <div class="section-header">
+                    <h2>Format Performance Breakdown</h2>
+                    <p>Engagement analysis and best practices by content format</p>
+                </div>
+
+                <div class="format-performance-chart" style="position: relative; height: 400px;">
+                    <canvas id="formatChart"></canvas>
+                </div>
+
+                <div class="format-details">
+                    <div class="format-card">
+                        <div class="format-header">
+                            <h3>Reels</h3>
+                            <div class="performance-score">1.66% ER</div>
+                        </div>
+                        <div class="format-content">
+                            <p><strong>Best for:</strong> Process videos & techniques</p>
+                            <p><strong>Arazzo Usage:</strong> 2 per week</p>
+                            <div class="best-practices">
+                                <h4>Best Practices:</h4>
+                                <ul>
+                                    <li>Time-lapse embroidery creation</li>
+                                    <li>Behind-the-scenes workshop footage</li>
+                                    <li>Artisan skill demonstrations</li>
+                                    <li>15-30 second optimal length</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="format-card">
+                        <div class="format-header">
+                            <h3>Carousel Posts</h3>
+                            <div class="performance-score">0.99% ER</div>
+                        </div>
+                        <div class="format-content">
+                            <p><strong>Best for:</strong> Product showcases & tutorials</p>
+                            <p><strong>Arazzo Usage:</strong> 1 per week</p>
+                            <div class="best-practices">
+                                <h4>Best Practices:</h4>
+                                <ul>
+                                    <li>Before/after transformations</li>
+                                    <li>Step-by-step tutorials</li>
+                                    <li>Multi-angle product views</li>
+                                    <li>Artisan story narratives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="format-card">
+                        <div class="format-header">
+                            <h3>Static Photos</h3>
+                            <div class="performance-score">0.70% ER</div>
+                        </div>
+                        <div class="format-content">
+                            <p><strong>Best for:</strong> Finished pieces & brand shots</p>
+                            <p><strong>Arazzo Usage:</strong> Primary format</p>
+                            <div class="best-practices">
+                                <h4>Best Practices:</h4>
+                                <ul>
+                                    <li>Hero product photography</li>
+                                    <li>Brand aesthetic shots</li>
+                                    <li>Material close-ups</li>
+                                    <li>High-quality editorial style</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="format-card">
+                        <div class="format-header">
+                            <h3>Stories</h3>
+                            <div class="performance-score">1.60% ER</div>
+                        </div>
+                        <div class="format-content">
+                            <p><strong>Best for:</strong> Daily updates & behind-scenes</p>
+                            <p><strong>Arazzo Usage:</strong> 10 per week</p>
+                            <div class="best-practices">
+                                <h4>Best Practices:</h4>
+                                <ul>
+                                    <li>Workshop candid moments</li>
+                                    <li>Work-in-progress updates</li>
+                                    <li>Quick tips and techniques</li>
+                                    <li>Artisan daily life glimpses</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3x3 Grid Strategy Section -->
+            <section class="tab-content" id="grid">
+                <div class="section-header">
+                    <h2>3×3 Grid Strategy for Arazzo</h2>
+                    <p>Strategic post placement for optimal grid aesthetics and engagement</p>
+                </div>
+
+                <div class="grid-strategy">
+                    <div class="instagram-grid" id="instagramGrid">
+                        <!-- Grid posts will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="grid-insights">
+                        <h3>Grid Strategy Insights</h3>
+                        <div class="format-distribution">
+                            <h4>Format Distribution</h4>
+                            <div class="distribution-chart" style="position: relative; height: 250px;">
+                                <canvas id="gridDistributionChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="grid-summary">
+                            <h4>Grid Composition</h4>
+                            <p><strong>1 Reel:</strong> Technique Mastery</p>
+                            <p><strong>2 Carousels:</strong> Artisan Stories, Education</p>
+                            <p><strong>6 Static Photos:</strong> Product showcase, sustainability focus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post Detail Modal -->
+                <div class="modal hidden" id="postModal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="modalTitle">Post Details</h3>
+                            <button class="modal-close">&times;</button>
+                        </div>
+                        <div class="modal-body" id="modalBody">
+                            <!-- Post details will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Posting Schedule Section -->
+            <section class="tab-content" id="schedule">
+                <div class="section-header">
+                    <h2>Arazzo Posting Schedule & Calendar</h2>
+                    <p>Optimized posting schedule for sustainable luxury embroidery brand</p>
+                </div>
+
+                <div class="schedule-overview">
+                    <div class="schedule-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Posts per Week</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10</div>
+                            <div class="stat-label">Stories per Week</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Reels per Week</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posting-calendar">
+                    <h3>14-Day Posting Schedule</h3>
+                    <div class="calendar-container" id="calendarContainer">
+                        <!-- Calendar will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="roadmap-section">
+                    <h3>90-Day Strategic Roadmap</h3>
+                    <div class="roadmap-timeline" id="roadmapTimeline">
+                        <!-- Roadmap will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content System Section -->
+            <section class="tab-content" id="content">
+                <div class="section-header">
+                    <h2>Content System & Templates for Arazzo</h2>
+                    <p>Reusable content framework and brand guidelines</p>
+                </div>
+
+                <div class="content-pillars">
+                    <h3>Content Pillars</h3>
+                    <div class="pillars-grid">
+                        <div class="pillar-card">
+                            <h4>Artisan Stories</h4>
+                            <p>Personal narratives of craftspeople</p>
+                            <div class="pillar-frequency">1x per week</div>
+                            <div class="pillar-formats">
+                                <span class="format-tag">Carousel</span>
+                                <span class="format-tag">Stories</span>
+                            </div>
+                        </div>
+                        <div class="pillar-card">
+                            <h4>Technique Mastery</h4>
+                            <p>Behind-the-scenes creation content</p>
+                            <div class="pillar-frequency">2x per week</div>
+                            <div class="pillar-formats">
+                                <span class="format-tag">Reels</span>
+                                <span class="format-tag">Stories</span>
+                            </div>
+                        </div>
+                        <div class="pillar-card">
+                            <h4>Product Showcase</h4>
+                            <p>Finished luxury pieces</p>
+                            <div class="pillar-frequency">1x per week</div>
+                            <div class="pillar-formats">
+                                <span class="format-tag">Static Photos</span>
+                                <span class="format-tag">Carousel</span>
+                            </div>
+                        </div>
+                        <div class="pillar-card">
+                            <h4>Sustainability Impact</h4>
+                            <p>Environmental and social responsibility</p>
+                            <div class="pillar-frequency">Weekly stories</div>
+                            <div class="pillar-formats">
+                                <span class="format-tag">Static Photos</span>
+                                <span class="format-tag">Stories</span>
+                            </div>
+                        </div>
+                        <div class="pillar-card">
+                            <h4>Heritage & Culture</h4>
+                            <p>Traditional techniques and cultural preservation</p>
+                            <div class="pillar-frequency">Weekly stories</div>
+                            <div class="pillar-formats">
+                                <span class="format-tag">Static Photos</span>
+                                <span class="format-tag">Stories</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="brand-guidelines">
+                    <h3>Arazzo Brand Voice & Visual Guidelines</h3>
+                    <div class="guidelines-grid">
+                        <div class="guideline-card">
+                            <h4>Voice & Tone</h4>
+                            <ul>
+                                <li>Luxury, precise, and craft-forward</li>
+                                <li>Inspirational yet authentic</li>
+                                <li>Respectful of tradition with sustainable innovation</li>
+                                <li>Transparent storytelling about artisan welfare</li>
+                            </ul>
+                        </div>
+                        <div class="guideline-card">
+                            <h4>Visual Identity</h4>
+                            <ul>
+                                <li>Clean, editorial aesthetic</li>
+                                <li>Warm neutrals with gold accents</li>
+                                <li>Macro embroidery textures emphasis</li>
+                                <li>Handcraft motion and artisan hands</li>
+                            </ul>
+                        </div>
+                        <div class="guideline-card">
+                            <h4>Hashtag Strategy</h4>
+                            <div class="hashtag-categories">
+                                <div class="hashtag-group">
+                                    <h5>Core Brand</h5>
+                                    <p>#ArazzoArt #LuxuryEmbroidery #SustainableFashion</p>
+                                </div>
+                                <div class="hashtag-group">
+                                    <h5>Technique Specific</h5>
+                                    <p>#FrenchKnots #Zardozi #Chikankari #HandEmbroidery</p>
+                                </div>
+                                <div class="hashtag-group">
+                                    <h5>Sustainability</h5>
+                                    <p>#CircularFashion #EthicalFashion #FairWages #ArtisanWelfare</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Measurement Section -->
+            <section class="tab-content" id="measurement">
+                <div class="section-header">
+                    <h2>Measurement & KPI Dashboard</h2>
+                    <p>Performance tracking framework and success metrics for Arazzo</p>
+                </div>
+
+                <div class="kpi-categories">
+                    <div class="kpi-category">
+                        <h3>Awareness Metrics for Arazzo</h3>
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <div class="kpi-value">10k+</div>
+                                <div class="kpi-label">Monthly Reach Target</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">7%</div>
+                                <div class="kpi-label">Monthly Follower Growth</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">15k+</div>
+                                <div class="kpi-label">Monthly Impressions</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="kpi-category">
+                        <h3>Engagement Metrics for Arazzo</h3>
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <div class="kpi-value">2.8%</div>
+                                <div class="kpi-label">Target Engagement Rate</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">5</div>
+                                <div class="kpi-label">Reshare Target per Post</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">45-55%</div>
+                                <div class="kpi-label">Video Completion Rate</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="kpi-category">
+                        <h3>Conversion Metrics for Arazzo (if running small budget paid ad)</h3>
+                        <div class="kpi-grid">
+                            <div class="kpi-card">
+                                <div class="kpi-value">50+</div>
+                                <div class="kpi-label">Monthly DM Inquiries</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">25+</div>
+                                <div class="kpi-label">Qualified Leads/Month</div>
+                            </div>
+                            <div class="kpi-card">
+                                <div class="kpi-value">8%</div>
+                                <div class="kpi-label">Profile Visit Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tracking-framework">
+                    <h3>Performance Tracking Framework</h3>
+                    <div class="framework-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-period">Weekly</div>
+                            <div class="timeline-actions">
+                                <h4>Weekly Optimization</h4>
+                                <ul>
+                                    <li>A/B test opening hooks and first frames</li>
+                                    <li>Analyze top-performing content formats</li>
+                                    <li>Monitor artisan story engagement</li>
+                                    <li>Track sustainability content performance</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-period">Monthly</div>
+                            <div class="timeline-actions">
+                                <h4>Monthly Review</h4>
+                                <ul>
+                                    <li>Comprehensive performance report</li>
+                                    <li>Content pillar effectiveness analysis</li>
+                                    <li>Audience growth and demographic insights</li>
+                                    <li>Competitor benchmark comparison</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-period">Quarterly</div>
+                            <div class="timeline-actions">
+                                <h4>Quarterly Strategy Review</h4>
+                                <ul>
+                                    <li>Strategic goal assessment and adjustment</li>
+                                    <li>Content system refinement</li>
+                                    <li>New sustainability initiatives</li>
+                                    <li>ROI analysis and budget optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section class="tab-content" id="pricing">
+                <div class="section-header">
+                    <h2>Arazzo Instagram Strategy Pricing</h2>
+                    <p>Choose the perfect plan for your luxury embroidery brand's Instagram needs</p>
+                </div>
+
+                <div class="pricing-plans" id="pricingPlans">
+                    <!-- Pricing plans will be populated by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

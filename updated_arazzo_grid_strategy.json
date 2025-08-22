@@ -1,0 +1,83 @@
+{
+  "position_1": {
+    "position": "Top Left",
+    "goal": "Build Trust & Authenticity",
+    "pillar": "Artisan Stories",
+    "format": "Carousel (5 slides)",
+    "opening_hook": "Meet Meera, whose hands have been creating magic for 20+ years...",
+    "caption": "Meet Meera, a master embroidery artisan whose delicate hands have been weaving dreams into fabric for over two decades. From her small village workshop, she creates intricate beadwork that adorns luxury gowns worn on red carpets worldwide. Each piece takes 40+ hours of meticulous handwork, preserving techniques passed down through generations.",
+    "hashtags": "#ArtisanStory #HandEmbroidery #LuxuryCraftsmanship #SustainableFashion #TraditionalCraft"
+  },
+  "position_2": {
+    "position": "Top Center",
+    "goal": "Showcase Process Expertise",
+    "pillar": "Technique Mastery",
+    "format": "Reel (15 seconds)",
+    "opening_hook": "Watch 48 hours of embroidery magic in 15 seconds \u26a1",
+    "caption": "48 hours of meticulous handwork condensed into pure magic \u2728 This French knot technique requires 2,000+ individual stitches to create just one flower motif. Our artisans use silk threads from sustainable sources and hand-selected crystals that catch light from every angle.",
+    "hashtags": "#EmbroideryProcess #HandEmbroidery #LuxuryProcess #CraftVideo #BehindTheScenes"
+  },
+  "position_3": {
+    "position": "Top Right",
+    "goal": "Drive Product Interest",
+    "pillar": "Product Showcase",
+    "format": "Static Photo",
+    "opening_hook": "When embroidery becomes poetry written in thread and gold \u2728",
+    "caption": "Poetry written in thread and 24k gold. This hand-embroidered panel features over 15,000 French knots and took our master artisan 6 weeks to complete. Crafted using GOTS-certified organic silk and recycled gold thread.",
+    "hashtags": "#LuxuryEmbroidery #SustainableLuxury #OrganicSilk #RecycledGold #ArazzoArt"
+  },
+  "position_4": {
+    "position": "Middle Left",
+    "goal": "Align with Sustainability Values",
+    "pillar": "Environmental Impact",
+    "format": "Static Photo",
+    "opening_hook": "From plastic waste to luxury fashion - the circular economy in action \ud83d\udd04",
+    "caption": "From ocean plastic to runway luxury - witness the circular economy in action. These iridescent sequins were once discarded plastic bottles, now transformed into sustainable embellishments for haute couture.",
+    "hashtags": "#CircularFashion #UpcycledLuxury #ZeroWaste #OceanPlastic #ArazzoSustainable"
+  },
+  "position_5": {
+    "position": "Middle Center",
+    "goal": "Educational Engagement",
+    "pillar": "Technique Education",
+    "format": "Carousel (6 slides)",
+    "opening_hook": "Master the art of French knots with this step-by-step guide \ud83c\udf93",
+    "caption": "Master one of embroidery's most elegant techniques! French knots add incredible texture and dimension to luxury embroidery. Here's how our artisans create these tiny masterpieces with consistent tension and perfect uniformity.",
+    "hashtags": "#EmbroideryTutorial #FrenchKnots #LearnEmbroidery #EmbroideryTechnique #ArazzoMasterclass"
+  },
+  "position_6": {
+    "position": "Middle Right",
+    "goal": "Humanize Brand",
+    "pillar": "Workshop Culture",
+    "format": "Static Photo",
+    "opening_hook": "Behind every Arazzo piece: a community of passionate artisans \u2600\ufe0f",
+    "caption": "Behind luxury embroidery lies a community of passionate artisans. Our workshop environment promotes creativity, fair wages, healthcare benefits, and flexible hours ensure our team thrives. This collaborative space produces not just exquisite embroidery, but lasting friendships.",
+    "hashtags": "#AtelierLife #EthicalProduction #FairWages #ArtisanWelfare #ArazzoTeam"
+  },
+  "position_7": {
+    "position": "Bottom Left",
+    "goal": "Cultural Connection",
+    "pillar": "Heritage Preservation",
+    "format": "Static Photo",
+    "opening_hook": "Ancient techniques meet modern innovation - tradition evolves \ud83c\udfdb\ufe0f",
+    "caption": "500-year-old techniques enhanced by modern innovation. While we honor traditional Zardozi and Chikankari methods passed down through generations, we've integrated eco-friendly materials and ergonomic tools.",
+    "hashtags": "#HeritageInnovation #TraditionalCraft #ModernTechniques #CulturalPreservation #ArazzoHeritage"
+  },
+  "position_8": {
+    "position": "Bottom Center",
+    "goal": "Social Proof",
+    "pillar": "Client Showcase",
+    "format": "Carousel (4 slides)",
+    "opening_hook": "From our atelier to the world's most prestigious runways \u2728",
+    "caption": "From sketch to runway - witness our embroidery journey! This hand-beaded collection took 300+ hours to complete and features sustainable crystals and organic silk. See the transformation from concept to red carpet.",
+    "hashtags": "#LuxuryFashion #ClientShowcase #CoutureEmbroidery #SustainableLuxury #ArazzoPrestige"
+  },
+  "position_9": {
+    "position": "Bottom Right",
+    "goal": "Quality Emphasis",
+    "pillar": "Material Excellence",
+    "format": "Static Photo",
+    "opening_hook": "When you touch luxury, you feel the difference. Every. Single. Thread. \ud83e\udd0f",
+    "caption": "Feel the luxury before you see it. These are OEKO-TEX certified silk threads with 120 denier count - the finest available. Each strand is tested for strength, colorfastness, and environmental safety.",
+    "hashtags": "#MaterialQuality #LuxuryMaterials #SilkThread #OEKOTEX #ArazzoQuality"
+  }
+}
