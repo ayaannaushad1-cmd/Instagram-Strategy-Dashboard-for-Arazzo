@@ -34,7 +34,7 @@ class InstagramDashboard {
                         "Content Strategy",
                         "Graphic Design",
                         "Video Editing",
-                        "2 Shoot days/Month (special location, studio charges separetly billed)",
+                        "2 Shoot days/Month",
                         "Maximum of 20 contents pushed out per month"
                     ],
                     perks: ["On-page SEO content generation"],
@@ -50,7 +50,7 @@ class InstagramDashboard {
                         "Content Strategy",
                         "Graphic Design", 
                         "Video Editing",
-                        "3x Shoots Days/Month",
+                        "3x Shoot Days/Month",
                         "Maximum of 30 contents pushed out per month"
                     ],
                     perks: [
@@ -71,7 +71,7 @@ class InstagramDashboard {
                         "Content Strategy",
                         "Graphic Design",
                         "Video Editing",
-                        "5x Shoots Days/Month", 
+                        "5x Shoot Days/Month", 
                         "Maximum of 40 contents pushed out per month"
                     ],
                     perks: [
