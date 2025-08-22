@@ -112,7 +112,7 @@ class InstagramDashboard {
                     posting_frequency_weekly: 4,
                     engagement_rate: 1.8,
                     content_pillars: ["Haute Couture Embroidery", "Bridal Collections", "Traditional Craftsmanship", "Workshop BTS"],
-                    top_formats:5["Carousel Posts", "Static Photos", "Reels"],
+                    top_formats: ["Carousel Posts", "Static Photos", "Reels"],
                     sustainability_focus: "Medium",
                     brand_positioning: "Traditional Luxury Embroidery House",
                     target_market: "Indian Bridal & Global Fashion Houses"
